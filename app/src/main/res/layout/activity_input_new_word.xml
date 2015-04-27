@@ -11,15 +11,15 @@
         android:layout_height="wrap_content"
         android:id="@+id/wordEditText"
         android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignParentStart="true" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Add word"
         android:id="@+id/addWordButton"
-        android:layout_below="@+id/wordEditText"
-        android:layout_centerHorizontal="true" />
+        android:layout_above="@+id/playButton"
+        android:layout_alignStart="@+id/playButton" />
 
     <Button
         android:layout_width="wrap_content"
